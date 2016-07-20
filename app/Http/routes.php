@@ -15,6 +15,9 @@ Route::get('/', function () {
     //return view('welcome');
     return redirect('http://www.nichepharma.com/soon');
 });
+Route::get('/protocols', function(){
+  return view('protocols');
+});
 
 Route::auth();
 
