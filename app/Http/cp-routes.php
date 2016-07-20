@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/test', function () {
+Route::get('/cp', function () {
     //return view('welcome');
-    return 'test';
+    return 'Control Panel is comming soon ...';
 });
