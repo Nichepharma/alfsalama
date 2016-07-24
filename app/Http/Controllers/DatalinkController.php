@@ -66,8 +66,20 @@ class DatalinkController extends Controller {
           return 'Done';
 
         case 'login':
-          //$user = App\User::where('')
-          return;
+          $user = App\User::where('email', '=', $data->email)->where('password', '=', $data->password)
+          ->whereIn('role_id', [2, 3]) //Only Patients and doctors can login via the datalink
+          ->first();
+
+          if (count($user)==0){
+            return 'No user';
+          }
+
+          $user->remember_token = App\Helper::generateRandomString(33);
+          $user->save();
+          return $user->makeVisible('remember_token');
+
+        default:
+          return "404";
       }
 
   }

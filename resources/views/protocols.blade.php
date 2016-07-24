@@ -60,7 +60,7 @@
                           <td>Login</td>
                           <td>login</td>
                           <td>{"email":"aaa@aaa.com", "password":"123456"}</td>
-                          <td>Working ...</td>
+                          <td>{"id":8,"name":"anyname","email":"anyemail2","role_id":2,"country_id":1,"city_id":2,"address":"anyaddress","contact":"anycontact","remember_token":"WGCExysawcSwLnfTGjgwyPzVVV4jWpUS6"}</td>
                         </tr>
                       </tbody>
                     </table>
