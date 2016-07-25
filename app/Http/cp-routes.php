@@ -11,7 +11,4 @@
 |
 */
 
-Route::get('/cp', function () {
-    //return view('welcome');
-    return 'Control Panel is comming soon ...';
-});
+Route::get('/cp', 'CPanelController@index');
