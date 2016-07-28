@@ -22,17 +22,17 @@ https://github.com/almasaeed2010/AdminLTE
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.3.5/css/skins/_all-skins.min.css">
     <!-- iCheck -->
-    <link rel="stylesheet" href="plugins/iCheck/flat/blue.css">
+    <link rel="stylesheet" href="{{asset('resources/assets/plugins/iCheck/flat/blue.css')}}">
     <!-- Morris chart -->
-    <link rel="stylesheet" href="plugins/morris/morris.css">
+    <link rel="stylesheet" href="{{asset('resources/assets/plugins/morris/morris.css')}}">
     <!-- jvectormap -->
-    <link rel="stylesheet" href="plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+    <link rel="stylesheet" href="{{asset('resources/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css')}}">
     <!-- Date Picker -->
-    <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
+    <link rel="stylesheet" href="{{asset('resources/assets/plugins/datepicker/datepicker3.css')}}">
     <!-- Daterange picker -->
-    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="{{asset('resources/assets/plugins/daterangepicker/daterangepicker.css')}}">
     <!-- bootstrap wysihtml5 - text editor -->
-    <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <link rel="stylesheet" href="{{asset('resources/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
